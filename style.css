@@ -77,3 +77,46 @@ button {
 button:hover {
   background-color: #555;
 }
+.animated-btn {
+  background-color: #333;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.animated-btn:hover {
+  background-color: #ff6347; /* changes color */
+  transform: scale(1.1);      /* slightly bigger */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* adds shadow */
+}
+.gallery {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 200px;
+  border-radius: 8px;
+  transition: transform 0.3s, filter 0.3s;
+  cursor: pointer;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+img {
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  max-width: 100%;  /* responsive */
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}

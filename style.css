@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #ede8e8;
+  text-align: center;
+}
+
+header {
+  background: #0c0a0a;
+  color: white;
+  padding: 30px;
+}
+
+section {
+  margin: 40px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+
+  animation: pulse 1.5s infinite;
+}

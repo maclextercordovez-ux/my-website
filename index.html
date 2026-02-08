@@ -7,6 +7,20 @@
 </head>
 <body>
 
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<body>
+  <nav> ... </nav>  <!-- your copied nav HTML here -->
+  <header> ... </header>
+  <main> ... </main>
+</body>
+
   <header>
     <h1>My Website</h1>
     <p>Built with HTML, CSS, and JavaScript</p>
@@ -17,6 +31,22 @@
       <h2>About Me</h2>
       <p>This is my first coded website 🚀</p>
     </section>
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contactForm">
+    <label for="name">Name:</label><br />
+    <input type="text" id="name" name="name" required /><br />
+
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" name="email" required /><br />
+
+    <label for="message">Message:</label><br />
+    <textarea id="message" name="message" required></textarea><br />
+
+    <button type="submit">Send</button>
+  </form>
+  <p id="response"></p>
+</section>
 
     <button id="btn">Click me</button>
   </main>
